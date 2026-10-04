@@ -211,10 +211,15 @@
 
         .grid-3 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
+            margin-top: 2rem;
+        }
+
+        .mv-card.propuesta-destacada { 
+            border: 2px solid var(--primary); 
+            background: #fff7f9; box-shadow: 0 8px 20px rgba(194, 89, 117, 0.18); 
+            transform: scale(1.02);
         }
 
         .card {
@@ -483,7 +488,13 @@
             <!-- Tarjeta Misión -->
             <div class="mv-card">
                 <h3>🌸 Nuestra Misión</h3>
-                <p>Ofrecer a nuestros clientes prendas de segunda mano de excelente calidad, cuidadosamente seleccionadas e higienizadas, promoviendo el consumo responsable, la accesibilidad económica y el vestir con estilo sin generar nuevos residuos textiles.</p>
+                <p>Fomentar el consumo de moda circular y accesible, ofreciendo prendas de segunda mano y nuevas cuidadosamente seleccionadas e higienizadas, brindando estilo, ahorro y sostenibilidad.</p>
+            </div>
+
+            <!-- TARJETA 2: PROPUESTA DE VALOR (DESTACADA) -->
+            <div class="mv-card propuesta-destacada"> 
+                <h3>💡 Propuesta de Valor</h3> 
+                <p>En Shantastic Boutique eliminamos la desconfianza al comprar ropa usada. Garantizamos un proceso riguroso de selección e higienización, ofreciendo prendas de excelente calidad a precios accesibles para vestir con estilo, cuidar el bolsillo familiar y proteger el planeta*.</p> 
             </div>
 
             <!-- Tarjeta Visión -->
